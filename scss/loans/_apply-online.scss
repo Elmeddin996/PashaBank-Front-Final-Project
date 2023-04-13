@@ -1,0 +1,89 @@
+#apply-online {
+    margin: 40px 0;
+    .container {
+        background-color: #f1f9f7;
+        height: 480px;
+        width: 100%;
+        background-image: url(../../assets/images/apply-online-bg.png);
+        background-position: left 112px bottom;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: -12px;
+            margin-left: -12px;
+            justify-content: flex-end;
+
+            .col-lg-6 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 50%;
+                flex: 0 0 50%;
+                max-width: 50%;
+
+                h4 {
+                    height: 96px;
+                    margin-top: 88px;
+                    margin-bottom: 40px;
+                    font-size: 32px;
+                    line-height: 48px;
+                    letter-spacing: .25px;
+                    font-weight: 400;
+                    color: #000000de
+                }
+
+                p {
+                    font-size: 14px;
+                    line-height: 24px;
+                    letter-spacing: .1px;
+                    font-weight: 600;
+                    color: #00000099;
+                }
+
+                h6 {
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 24px;
+                    letter-spacing: .15px;
+                    min-height: 48px;
+                    color: #000000de;
+                }
+
+                .buttons {
+                    display: flex;
+
+                    a{
+                        text-align: center;
+                        text-decoration: none;
+                        padding-top: 11px;
+                        margin: 0 10px;
+                         font-size: 14px;
+                        line-height: 24px;
+                        letter-spacing: .1px;
+                        font-weight: 600;
+                        border-radius: 6px;
+                        cursor: pointer;
+                        outline: none;
+                        border: none;
+                        width: 267px;
+                        height: 48px;
+                    }
+                    #yes {
+                        
+                        background: #058d66;
+                        color: #fff;
+                       
+                    }
+
+                    #no {
+                        border: 1px solid #d6d7d6;
+                        background-color: #fff;
+                        color: #099a71;
+                    }
+                }
+
+            }
+        }
+    }
+}

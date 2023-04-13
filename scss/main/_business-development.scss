@@ -1,0 +1,124 @@
+#business-development {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 100px 0;
+
+    h2 {
+        margin-left: 70px;
+    }
+
+    .buisiness-head {
+        margin-left: 70px;
+        h3 {
+            font-size: 32px;
+            line-height: 48px;
+            letter-spacing: .25px;
+        }
+
+        p {
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 24px;
+            letter-spacing: .5px;
+            color: #00000099;
+        }
+    }
+
+    .business-cont {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+
+        .business-item {
+            height: auto;
+            background-color: white;
+            width: 28%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h4 {
+                margin: 10px 5px;
+            }
+
+            img {
+                width: 300px;
+            }
+
+            .price-cont {
+                width: 100%;
+                margin-left: 40px;
+                display: flex;
+
+                h2 {
+                    font-size: 60px;
+                    font-weight: 300;
+                    line-height: 72px;
+                    letter-spacing: -.5px;
+                }
+
+                img {
+                    margin-top: 18px;
+                    width: 20px;
+                }
+
+                p {
+                    opacity: 0.7;
+                    margin-left: 5px;
+                    margin-top: 40px;
+                }
+            }
+
+            ul {
+                li {
+                    margin: 5px 0;
+                    display: flex;
+                    list-style: none;
+
+                    img {
+                        width: 25px;
+                    }
+
+                    p {
+                        margin: 0;
+                    }
+                }
+            }
+
+            span {
+                color: #099a71;
+            }
+
+            .btn-success {
+                margin: 10px 0;
+                width: 80%;
+                background: #058d66;
+
+            }
+
+        }
+
+    }
+
+}
+
+@media screen and(max-width: 768px) {
+    #business-development {
+
+        margin-top: 210px;
+
+        .business-cont {
+            display: flex;
+            flex-direction: column;
+
+            .business-item {
+                width: 100%;
+            }
+        }
+    }
+
+
+}

@@ -1,0 +1,39 @@
+#account-register {
+    padding-top: 50px;
+
+    .text-cont {
+        padding-left: 40px;
+    }
+
+    .account-cont {
+        display: flex;
+
+        .account-item {
+            background-color: white;
+            padding: 20px 18px;
+            border: 10px solid #fafafa;
+            border-radius: 20px;
+            text-decoration: none;
+            padding-bottom: 50px;
+
+            .flex {
+                display: flex;
+                justify-content: space-between;
+
+                h6 {
+                    font-size: 20px;
+                    font-weight: 600;
+                    color: black;
+                }
+            }
+
+            span {
+                color: #099a71;
+            }
+        }
+        .account-item:hover {
+            box-shadow: 1px 1px 1px 1px #888888;
+        }
+    }
+
+}

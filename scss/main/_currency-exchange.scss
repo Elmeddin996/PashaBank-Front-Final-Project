@@ -1,0 +1,52 @@
+#currency-exchange {
+    width: 100%;
+    margin-top: 50px;
+
+
+    .exchange-cont {
+        width: 100%;
+
+        .exchange-head {
+            margin: 10px 20px;
+        }
+
+        .exchange-tables {
+            display: flex;
+
+            .col-md-6 {
+                background-color: white;
+                padding: 0 8px;
+                border: 10px solid #fafafa;
+                border-radius: 30px;
+
+                .flag {
+
+                    display: flex;
+
+                    img {
+                        width: 40px;
+                    }
+
+                    h5 {
+                        margin-top: 8px;
+                    }
+                }
+            }
+
+
+        }
+    }
+
+    a {
+        color: #099a71;
+    }
+
+}
+
+@media screen and(max-width:768px) {
+    .exchange-tables {
+        display: flex;
+        flex-direction: column;
+
+    }
+}

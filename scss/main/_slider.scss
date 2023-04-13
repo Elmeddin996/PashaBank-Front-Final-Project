@@ -1,0 +1,217 @@
+.carousel-inner {
+    margin-top: 80px;
+
+
+    .carousel-item-1 {
+        background-color: rgb(224, 243, 237);
+
+        .img-1 img {
+            max-width: 90%;
+            height: 504px;
+            float: right;
+        }
+
+        .carousel-caption {
+            position: absolute;
+            left: 0;
+
+            h5 {
+                position: absolute;
+                left: 20px;
+                bottom: 300px;
+                color: black;
+                font-size: 48px;
+            }
+
+            p {
+                position: absolute;
+                left: 20px;
+                bottom: 250px;
+                color: #00000099;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 24px;
+                letter-spacing: .5px;
+            }
+
+            a {
+                position: absolute;
+                left: 20px;
+                bottom: 150px;
+                background: #058d66;
+                min-width: 144px;
+                height: 56px;
+                padding: 16px;
+            }
+        }
+    }
+
+    .carousel-item-2 {
+        background-color: #ffebf0;
+
+        .img-2 img {
+            max-width: 70%;
+            height: 504px;
+            float: right;
+        }
+
+        .carousel-caption {
+            position: absolute;
+            left: 0;
+
+            h5 {
+                position: absolute;
+                left: 40px;
+                bottom: 300px;
+                color: black;
+                font-size: 48px;
+            }
+
+            p {
+                position: absolute;
+                left: 40px;
+                bottom: 250px;
+                color: #00000099;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 24px;
+                letter-spacing: .5px;
+            }
+
+            a {
+                position: absolute;
+                left: 40px;
+                bottom: 150px;
+                background: #058d66;
+                min-width: 144px;
+                height: 56px;
+                padding: 16px;
+            }
+        }
+    }
+
+    .carousel-item-3 {
+        background-color: rgb(253, 246, 231);
+
+        .img-3 img {
+            max-width: 60%;
+            height: 504px;
+            float: right;
+        }
+
+        .carousel-caption {
+            position: absolute;
+            left: 0;
+
+            h5 {
+                position: absolute;
+                left: 40px;
+                bottom: 300px;
+                color: black;
+                font-size: 48px;
+            }
+
+            p {
+                position: absolute;
+                left: 40px;
+                bottom: 250px;
+                color: #00000099;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 24px;
+                letter-spacing: .5px;
+            }
+
+            a {
+                position: absolute;
+                left: 40px;
+                bottom: 150px;
+                background: #058d66;
+                min-width: 144px;
+                height: 56px;
+                padding: 16px;
+            }
+        }
+    }
+
+    .carousel-item-4 {
+
+        background-color: rgb(231, 244, 249);
+
+        .img-4 img {
+            max-width: 50%;
+            height: 504px;
+            float: right;
+
+        }
+
+        .carousel-caption {
+            position: absolute;
+            left: 0;
+
+            h5 {
+                position: absolute;
+                left: 40px;
+                bottom: 350px;
+                color: black;
+                font-size: 48px;
+                line-height: 56px;
+            }
+
+            h4 {
+                position: absolute;
+                left: 40px;
+                bottom: 300px;
+                color: black;
+                font-size: 48px;
+                line-height: 56px;
+            }
+
+            p {
+                position: absolute;
+                left: 40px;
+                bottom: 250px;
+                color: #00000099;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 24px;
+                letter-spacing: .5px;
+            }
+
+            a {
+                position: absolute;
+                left: 40px;
+                bottom: 150px;
+                background: #058d66;
+                min-width: 144px;
+                height: 56px;
+                padding: 16px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        img {
+            display: none !important;
+        }
+
+
+    }
+}
+
+
+.accounts {
+    background-color: #ffebf0;
+    position: relative;
+
+    h5 {
+        position: absolute;
+        top: -380px;
+    }
+
+    p {
+        position: absolute;
+        top: -190px;
+    }
+
+}

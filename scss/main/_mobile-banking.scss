@@ -1,0 +1,55 @@
+#mobile-banking {
+    width: 100%;
+
+    .mobile-bank {
+        margin-top: 100px;
+        width: 100%;
+        height: 400px;
+        background-image: url(../assets/images/mobile-image.svg);
+        background-color: #fff;
+        background-repeat: no-repeat;
+        background-position: right;
+
+        .row {
+            display: flex;
+            flex-direction: column;
+            margin-left: 50px;
+
+            h2 {
+                margin-top: 50px;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 24px;
+                letter-spacing: .15px;
+            }
+
+            p {
+                margin: 40px 0;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 24px;
+                letter-spacing: .5px;
+            }
+
+            .communication {
+                display: flex;
+
+                .app-play-store {
+                    display: flex;
+                    flex-direction: column;
+
+                    img {
+                        margin: 7px 5px;
+                        width: 141px;
+                    }
+                }
+
+                .qr-code {
+                    margin-top: 6px;
+                }
+            }
+        }
+
+
+    }
+}

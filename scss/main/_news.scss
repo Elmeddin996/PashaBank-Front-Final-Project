@@ -1,0 +1,19 @@
+#news{
+    margin-top: 50px;
+    margin-left: 110px;
+    a{
+        text-decoration: none;
+        color: #099a71;
+    }
+    .news-cont{
+        margin-top: 50px;
+        display: flex;
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        a:hover{
+            color: #099a71;
+        }
+    }
+}

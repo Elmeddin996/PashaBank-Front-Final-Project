@@ -1,0 +1,22 @@
+#documents-for-loan {
+    background-color: #fafafa;
+
+    .container {
+        width: 86%;
+        margin: 0 auto;
+
+        h4{
+            font-size: 32px;
+            line-height: 48px;
+            letter-spacing: .25px;
+            padding: 50px 0;
+        }
+        .tab-menu {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px 16px 0;
+            -webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, .07);
+            box-shadow: 0 2px 7px rgba(0, 0, 0, .07);
+        }
+    }
+}

@@ -1,0 +1,102 @@
+#main-products {
+    margin-top: 50px;
+    margin-left: 50px;
+
+    .product-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+
+
+        .product-col-6,
+        .product-col-4 {
+
+            position: relative;
+            background-repeat: no-repeat;
+            height: 350px;
+            background-position: right;
+            border-radius: 8px;
+            text-decoration: none;
+            color: black;
+
+            h3 {
+                margin: 50px 10px;
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 32px;
+            }
+
+
+            p {
+                margin: 50px 10px;
+            }
+
+            span {
+                position: absolute;
+                bottom: 20px;
+                margin: 0 10px;
+                color: #099a71;
+            }
+        }
+
+        .product-col-6 {
+            margin-top: 20px;
+            width: 48%;
+        }
+
+        .product-col-4 {
+            margin-top: 20px;
+            width: 32%;
+        }
+
+        .product-1 {
+            background-image: url(../assets/images/pos-terminal.png);
+            background-color: #e7f4f9;
+        }
+
+        .product-2 {
+            background-image: url(../assets/images/slider4.png);
+            background-size: 58%;
+            background-color: #ffebf0;
+        }
+
+        .product-3 {
+            background-image: url(../assets/images/product-3.png);
+            background-color: #e7f4f9;
+
+        }
+
+        .product-4 {
+            background-image: url(../assets/images/product-4.png);
+            background-color: #ffebf0;
+            background-size: 45%;
+        }
+
+        .product-5 {
+            background-image: url(../assets/images/product-5.png);
+            background-color: #f4f5f4;
+            background-size: 48%;
+        }
+
+
+        .product-col-4:hover,
+        .product-col-6:hover {
+            box-shadow: 2px 2px 2px 3px #888888;
+        }
+    }
+
+    @media screen and(max-width: 768px) {
+        .product-container {
+            display: flex;
+            flex-direction: column;
+
+            .product-col-6,
+            .product-col-4 {
+                width: 100%;
+            }
+        }
+
+
+    }
+}

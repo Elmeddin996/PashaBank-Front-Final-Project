@@ -1,0 +1,46 @@
+@import "_navbar.scss";
+@import "./main/_news.scss";
+@import "_footer.scss";
+@import "./main/_slider.scss";
+@import "./main/_main-benefits.scss";
+@import "./main/_main-products.scss";
+@import "./main/_online-banking.scss";
+@import "./main/_business-development.scss";
+@import "./main/_mobile-banking.scss";
+@import "./main/_currency-exchange.scss";
+@import "./accounts/_account-register.scss";
+@import "./accounts/_advantages.scss";
+@import "./accounts/_starting-business.scss";
+@import "./accounts/_questions.scss";
+@import "./loans/_slider-img.scss";
+@import "./loans/_advantages-loans.scss";
+@import "./loans/_business-calculator.scss";
+@import "./loans/_information-loan.scss";
+@import "./loans/_documents-for-loan.scss";
+@import "./loans/_video-form.scss";
+@import "./loans/_apply-online.scss";
+@import "./businessCards/_silder-img-cards.scss";
+@import "./businessCards/_in-countries.scss";
+@import "./businessCards/_cards.scss";
+@import "./businessCards/_three-step.scss";
+@import "./businessCards/_for-all-needs.scss";
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000000de;
+
+}
+body{
+    background-color: #fafafa;
+}
+.container {
+    max-width: 100%;
+    background-color: #fafafa;
+
+}

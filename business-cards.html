@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/index.js" type="module" defer></script>
+    <title>Biznes kartlar | PASHA Bank</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="./index.html"><img src="./assets/images/logo_pasha.svg" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="busines-services nav-item">
+                        <a class="nav-link" href="#">Biznes üçün xidmətlər</a>
+                        <div class="busines-services-menu menu-dropdown">
+                            <div class="row">
+                                <div class="col-12 col-md-4">
+                                    <ul>
+                                        <li class="navbar-menu-li"><a href="#">Tariflər</a></li>
+                                        <li class="navbar-menu-li"><a href="#">GRO platforması</a></li>
+                                        <li class="navbar-menu-li"><a href="#">Biznes üçün hesab</a></li>
+                                        <li class="navbar-menu-li"><a href="#">Əməkhaqqı layihəsi</a></li>
+                                        <li class="navbar-menu-li"><a href="#">Ödənişlər</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-md-4">
+                                    <ul>
+                                        <li class="navbar-menu-li"><a href="#">Biznes kartlar</a></li>
+                                        <li class="navbar-menu-li"><a href="#">POS–terminal və E–kassa</a></li>
+                                        <li class="navbar-menu-li"><a href="#">Elektron ticarət</a></li>
+                                        <li class="navbar-menu-li"><a href="#">Linklə ödəniş</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="credits nav-item">
+                        <a class="nav-link" href="#">Kreditlər</a>
+                        <div class="credits-menu menu-dropdown">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <ul>
+                                        <li class="navbar-menu-li"><a href="#">Onlayn biznes kreditləri</a></li>
+                                        <li class="navbar-menu-li"><a href="#">Biznes kreditləri</a></li>
+                                        <li class="navbar-menu-li"><a href="#">Gömrük kartı üzrə kredit xətti</a></li>
+                                        <li class="navbar-menu-li"><a href="#">SİF Kreditləri</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="factoring nav-item">
+                        <a class="nav-link" href="#"> Faktorinq</a>
+                        <div class="factoring-menu menu-dropdown">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <ul>
+                                        <li class="navbar-menu-li"><a href="#">İnvoysların maliyyələşdirilməsi</a></li>
+                                        <li class="navbar-menu-li"><a href="#">Alış sifarişi əsasında maliyyələşmə</a>
+                                        </li>
+                                        <li class="navbar-menu-li"><a href="#">Təchizat zəncirinin
+                                                maliyyələşdirilməsi</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li class="documentary-transactions nav-item">
+                        <a class="nav-link" href="#">Sənədli əməliyyatlar</a>
+                        <div class="documentary-transactions-menu menu-dropdown">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <ul>
+                                        <li class="navbar-menu-li"><a href="#">Ekspress-Tender qarantiyası</a></li>
+                                        <li class="navbar-menu-li"><a href="#">Bank qarantiyası</a></li>
+                                        <li class="navbar-menu-li"><a href="#">Akkreditiv</a></li>
+                                        <li class="navbar-menu-li"><a href="#">İnkasso</a></li>
+                                        <li class="navbar-menu-li"><a href="#">Ticarətin maliyyələşdirilməsi</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="additional-services nav-item">
+                        <a class="nav-link" href="#">Əlavə xidmətlər</a>
+                        <div class="additional-services-menu menu-dropdown">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <ul>
+                                        <li class="navbar-menu-li"><a href="#">İnkassasiya</a></li>
+                                        <li class="navbar-menu-li"><a href="#">Depozitlər</a></li>
+                                        <li class="navbar-menu-li"><a href="#">Bank seyfləri</a></li>
+                                        <li class="navbar-menu-li"><a href="#">Bulud CRM</a></li>
+                                        <li class="navbar-menu-li"><a href="#">ÇatBot</a></li>
+                                        <li class="navbar-menu-li"><a href="#">Elektron-ticarət üçün mobil tətbiq</a>
+                                        </li>
+                                        <li class="navbar-menu-li"><a href="#">Umico MasterPass</a></li>
+                                        <li class="navbar-menu-li"><a href="#">PAŞA Biznes</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <div id="header-dropdown-btn" class="dropdown">
+                    <button class="btn btn-success dropdown-toggle" type="button" data-toggle="dropdown"
+                        aria-expanded="false">
+                        Onlayn Bank
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Hüquqi şəxslər və fərdi sahibkarlar üçün</a>
+                        <a class="dropdown-item" href="#">Fiziki şəxslər üçün</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <section id="slider-img-cards">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h1>
+                                Biznes xərclərinizə uyğun
+                                <br> korporativ kart
+                            </h1>
+                            <p>
+                                Ezamiyyə xərcləri, aviabiletlərin alışı, kommunal, gömrük və digər biznes
+                                <br> xərcləri üçün istifadə olunan kartlardan yararlanın
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="in-countries">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h4><span>Dünyanın 200-dək</span>
+                                <br> ölkəsində istifadə olunan
+                            </h4>
+                            <h6>İstəkləriniz üçün güclü bir dəlil</h6>
+                            <p>
+                                PAŞA bank MasterCard və VISA beynəlxalq sistemlərinin ödəniş
+                                <br> kartlarını təklif edir
+                            </p>
+                            <img src="./assets/images/visa.png">
+
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="cards">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-4">
+                            <img src="./assets/images/business-card.png" alt="Business card">
+                        </div>
+                        <div class="col-12 col-lg-8">
+                            <h2>Korporativ kart</h2>
+                            <p>
+                                Şirkətin biznes fəaliyyəti ilə bağlı rəhbər şəxsləri və əməkdaşları tərəfindən Ezamiyyə
+                                və nümayəndəlik
+                                <br> xərcləri, avia və sair biletlərin alışı, oteldə otaq sifarişi, avtomobil
+                                icarəsi, kommunal, rabitə və digər
+                                <br> təsərrüfat xərclərinin ödənişi üçün istifadə olunan
+                                sadələşdirilmiş vergi (2%) ödəyiciləri üçün nəzərdə
+                                <br> tutulmuş kart
+                            </p>
+                            <div class="d-lg-flex mt-2 mt-lg-4">
+                                <div class="card-info">
+                                    <span>Kartın növü</span>
+                                    <p>MasterCard Business/
+                                        <br> Visa Business
+                                    </p>
+                                </div>
+                                <div class="card-info">
+                                    <span>Kartın valyutası</span>
+                                    <p>AZN/ USD/
+                                        <br> GBP/ EUR
+                                    </p>
+                                </div>
+                                <div class="card-info">
+                                    <span>Kartın müddəti</span>
+                                    <p>3 il</p>
+                                </div>
+                                <div class="card-info">
+                                    <span>Nağdlaşdırma limiti</span>
+                                    <p>Qanunvericiliyə və Bankın daxili
+                                        <br> qaydalarına uyğun
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column flex-lg-row mt-4 mt-lg-3">
+                                <a id="order" href="https://pashabank.digital/#/cards/salary">
+                                    Sifariş et
+                                </a>
+                                <a class="btn btn-light" href="#">
+                                    <span>Ətraflı</span>
+                                    <span id="close">Bağla</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-lg-4">
+                            <img src="./assets/images/tajir-card.png" alt="Tajir card">
+                        </div>
+                        <div class="col-12 col-lg-8">
+                            <h2>Tacir kartı</h2>
+                            <p>Hüquqi şəxs və ya fərdi sahibkarın biznes fəaliyyəti ilə bağlı bütün xərclərini
+                                qarşılayan ƏDV (18%)
+                                <br> ödəyiciləri üçün nəzərdə tutulmuş kart. Bu kart məhsulu
+                                Distributorlardan mal alarkən PAŞA Bankın
+                                <br> POS terminalları vasitəsi ilə avtomatik olaraq
+                                vergi (ƏDV) xərclərini ödəmək imkanı yaradır
+                            </p>
+                            <div class="d-lg-flex mt-2 mt-lg-4">
+                                <div class="card-info">
+                                    <span>Kartın növü</span>
+                                    <p>MasterCard
+                                        <br> Business
+                                    </p>
+                                </div>
+                                <div class="card-info">
+                                    <span>Kartın valyutası</span>
+                                    <p>AZN</p>
+                                </div>
+                                <div class="card-info">
+                                    <span>Kartın müddəti</span>
+                                    <p>3 il</p>
+                                </div>
+                                <div class="card-info">
+                                    <span>Nağdlaşdırma limiti</span>
+                                    <p>Qanunvericiliyə və Bankın daxili
+                                        <br> qaydalarına uyğun
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column flex-lg-row mt-4 mt-lg-3">
+                                <a id="order" href="https://pashabank.digital/#/cards/salary">
+                                    Sifariş et
+                                </a>
+                                <a class="btn btn-light" href="#">
+                                    <span>Ətraflı</span>
+                                    <span id="close">Bağla</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-lg-4">
+                            <img src="./assets/images/customs-card.png" alt="Customs card">
+                        </div>
+                        <div class="col-12 col-lg-8">
+                            <h2>Gömrük kartı</h2>
+                            <p>Hüquqi şəxs və ya fərdi sahibkarın gömrük xərclərinin nağdsız ödənilməsi üçün istifadə
+                                olunan kart.
+                                <br> Mədaxil edilmiş vəsaitlər yalnız gömrük ödənişləri üçün (POS və HÖP
+                                vasitəsi ilə (portalda yalnız
+                                <br> gömrük ödənişləri)) istifadə edilə biləryiciləri üçün
+                                nəzərdə
+                                <br> tutulmuş kart
+                            </p>
+                            <div class="d-lg-flex mt-2 mt-lg-4">
+                                <div class="card-info">
+                                    <span>Kartın növü</span>
+                                    <p>Lokal/ MasterCard Business</p>
+                                </div>
+                                <div class="card-info">
+                                    <span>Kartın valyutası</span>
+                                    <p>AZN</p>
+                                </div>
+                                <div class="card-info">
+                                    <span>Kartın müddəti</span>
+                                    <p>3 il</p>
+                                </div>
+                                <div class="card-info">
+                                    <span>Nağdlaşdırma limiti</span>
+                                    <p>Bank tərəfindən
+                                        <br> təyin olunmuş
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column flex-lg-row mt-4 mt-lg-3">
+                                <a id="order" href="https://pashabank.digital/#/cards/salary">
+                                    Sifariş et
+                                </a>
+                                <a class="btn btn-light" href="#">
+                                    <span>Ətraflı</span>
+                                    <span id="close">Bağla</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="three-step">
+                <div class="container">
+                    <h2>Kart sifarişi üçün 3 sadə addım</h2>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="stage">
+                                <div class="img-cont">
+                                    <img src="./assets/icons/dublikat-icon.png">
+                                </div>
+                                <h6>Şəhadətnamə dublikatı əldə edin</h6>
+                                <p>Sifariş etmək istədiyiniz kartın valyutasına
+                                    <br> uyğun şəhadətnamə-dublikatını e-taxes.gov.az
+                                    <br> saytından banka göndərin
+                                </p>
+                            </div>
+                            <div class="stage">
+                                <div class="img-cont">
+                                    <img src="./assets/icons/ugun-icon.png">
+                                </div>
+                                <h6>Sizə uyğun Biznes kartı seçin</h6>
+                                <p>Biznes fəaliyyətinizə uyğun kartı banka
+                                    <br> gəlmədən onlayn seçin
+                                </p>
+                            </div>
+                            <div class="stage">
+                                <div class="img-cont">
+                                    <img src="./assets/icons/tehvil-icon.png">
+                                </div>
+                                <h6>İstədiyiniz ünvana təhvil alın</h6>
+                                <p>Banka gəlmədən Bakı daxilində istənilən yerdə
+                                    <br> kartı təhvil alın
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="for-all-needs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <h3>
+                                Hər ehtiyacınız üçün Biznes kartlar!
+                            </h3>
+                            <div class="mt-3 mt-lg-4 d-flex flex-column flex-lg-row">
+                                <div class="col-6">
+                                    <p>
+                                        Şirkətlər üçün
+                                    </p>
+                                    <h6>24/7 onlayn kart sifarişi</h6>
+                                </div>
+                                <div class="col-6">
+                                    <p>
+                                        Nağdlaşdirilməsi limiti
+                                    </p>
+                                    <h6>15 000 AZN-dən</h6>
+                                </div>
+                            </div>
+                            <a class="btn" href="https://pashabank.digital/#/cards/salary">Sifariş et</a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="questions">
+                <div class="container">
+                    <h4>Ən çox verilən suallar</h4>
+                    <div class="accordion-cont">
+                        <div class="label">
+                            <h2>Şəhadətnamə dublikatı necə əldə etmək olar?</h2>
+                            <img class="plus" src="./assets/icons/accordion-plus-icon.png">
+                            <img class="minus" src="./assets/icons/minus.png">
+                        </div>
+                        <div class="content">
+                            <p>Şəhadətnamə-dublikatın əldə edilməsi üçün e-taxes.gov.az ünvanına müraciət edin. Əgər
+                                artıq müraciət etmisinizsə,
+                                <br> Şəhadətnamə-dublikatı hazır olduğu halda qeyd etdiyiniz
+                                nömrəyə SMS xəbərdarlıq alacaqsınız.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-cont">
+                        <div class="label">
+                            <h2>Kartın üzərində ancaq şirkətin adı qeyd olunmalıdır?</h2>
+                            <img class="plus" src="./assets/icons/accordion-plus-icon.png">
+                            <img class="minus" src="./assets/icons/minus.png">
+                        </div>
+                        <div class="content">
+                            <p>Kartın üzərində həm şirkətin adı, həm də kartı istifadə edəcək şəxsin adı qeyd edilə
+                                bilər.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-cont">
+                        <div class="label">
+                            <h2>Lokal kart “MasterCard Business” kartından nə ilə fərqlənir?</h2>
+                            <img class="plus" src="./assets/icons/accordion-plus-icon.png">
+                            <img class="minus" src="./assets/icons/minus.png">
+                        </div>
+                        <div class="content">
+                            <p>Lokal kart yalnız ölkədaxili istifadə oluna bilər, “MasterCard Business” kartları isə həm
+                                ölkədaxili, həm də ölkə
+                                <br> xaricində istifadə oluna bilər.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+    <footer>
+        <div class="footer-contacts">
+            <img src="./assets/images/logo_pasha.svg" alt="Logo">
+            <div>
+                <h6>*9123 / (+99 412) 496 50 00</h6>
+                <p>Fərdi müştərilər üçün</p>
+            </div>
+            <div>
+                <h6>*8123 / (+994 12) 496 50 04</h6>
+                <p>Korporativ müştərilər üçün</p>
+            </div>
+            <div>
+                <h6>customer.care@pashabank.az</h6>
+                <p>E-mail</p>
+            </div>
+        </div>
+        <div class="footer-cont">
+            <div class="col-12 col-md-3">
+                <ul>
+                    <li>
+                        <h5>Korporativ Bankçılıq</h5>
+                    </li>
+                    <li><a href="#">Hesablaşma-kassa xidmətləri</a></li>
+                    <li><a href="#">Depozitlər</a></li>
+                    <li><a href="#">İnkassasiya</a></li>
+                    <li><a href="#">Bank seyfləri</a></li>
+                    <li><a href="#">Bank kartları</a></li>
+                    <li><a href="#">Korporativ kreditləşmə</a></li>
+                    <li><a href="#">Faktorinq</a></li>
+                    <li><a href="#">Sənədli əməliyyatlar</a></li>
+                    <li><a href="#">Ekvayrinq (POS) xidmətləri</a></li>
+                    <li><a href="#">Distant bank xidmətləri</a></li>
+                    <li><a href="#">Qeyri-maliyyə xidmətləri</a></li>
+                    <li><a href="#">Ümumi şərtlər toplusu</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-3">
+                <ul>
+                    <li>
+                        <h5>Kiçik və Orta Biznes</h5>
+                    </li>
+                    <li><a href="#">Biznes üçün hesab</a></li>
+                    <li><a href="#">Əməkhaqqı layihəsi</a></li>
+                    <li><a href="#">Elektron ticarət</a></li>
+                    <li><a href="#">POS–terminal və E–kassa</a></li>
+                    <li><a href="#">Biznes kartlar</a></li>
+                    <li><a href="#">Onlayn biznes krediti</a></li>
+                    <li><a href="#">İnvoysların maliyyələşdirilməsi</a></li>
+                    <li><a href="#">Bank qarantiyası</a></li>
+                    <li><a href="#">Ekspress-Tender qarantiyası</a></li>
+                    <li><a href="#">Akkreditiv</a></li>
+                    <li><a href="#">Ticarətin maliyyələşdirilməsi</a></li>
+                    <li><a href="#">Linklə ödəniş</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-3">
+                <ul>
+                    <li>
+                        <h5>Fərdi Bankçılıq</h5>
+                    </li>
+                    <li><a href="#">Private Banking</a></li>
+                    <li><a href="#">Hesablaşma-kassa xidmətləri</a></li>
+                    <li><a href="#">Depozitlər</a></li>
+                    <li><a href="#">Bank seyfləri</a></li>
+                    <li><a href="#">Bank kartları</a></li>
+                    <li><a href="#">Distant bank xidmətləri</a></li>
+                    <li><a href="#">Əlaqə mərkəzi</a></li>
+                    <li><a href="#">Kreditlər</a></li>
+                    <li><a href="#">Mobil əlavə</a></li>
+                    <li><a href="#">Endirim platforması</a></li>
+                    <li><a href="#">Onlayn xidmətlər</a></li>
+                    <li><a href="#">Ümumi şərtlər toplusu</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-3">
+                <ul>
+                    <li>
+                        <h5>Digər</h5>
+                    </li>
+                    <li><a href="#">İnvestisiya bankçılığı</a></li>
+                    <li><a href="#">Maliyyə institutları</a></li>
+                    <li><a href="#">Haqqımızda</a></li>
+                    <li><a href="#">Xəbərlər</a></li>
+                    <li><a href="#">Əməliyyat ölkələri</a></li>
+                    <li><a href="#">Təklif və şikayətlər</a></li>
+                    <li><a href="#">Filiallar və bankomatlar</a></li>
+                    <li><a href="#">Əlaqə</a></li>
+                    <li><a href="https://www.facebook.com/pashabank/"><img src="./assets/icons/facebook.svg"></a>
+                        <a href="https://twitter.com/PASHABank"><img src="./assets/icons/twitter.svg"></a>
+                        <a
+                            href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQEy2J0GfAaVuAAAAYddnnMwN4pZi_qXQUbKrRwo0W6xCbGfPQy67liBEYNhiJ-Ad2FUDUMUGJStJkWQvnUmuJ8ljDCPbZWZmRKGrdIIBx62qLLLlS7q_H1J5NnNyOn79bSaFv0=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fpasha-bank"><img
+                                src="./assets/icons/linkedin.svg"></a>
+                        <a href="https://www.youtube.com/user/PASHABank"><img src="./assets/icons/youtube.svg"></a>
+                        <a href="https://www.instagram.com/pashabank/"><img src="./assets/icons/instagram.svg"></a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>
+                © 2023, PAŞA Bank
+            </p>
+            <p>
+                Bank Azərbaycan Respublikası Mərkəzi Bankının 250 saylı 28 noyabr 2007-ci il tarixli lisenziyası
+                əsasında fəaliyyət göstərir.
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

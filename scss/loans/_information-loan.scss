@@ -1,0 +1,49 @@
+#information-loan {
+
+    .container {
+        height: 300px;
+
+        h2 {
+            font-size: 32px;
+            line-height: 48px;
+            letter-spacing: .25px;
+            font-weight: 400;
+            padding: 50px 0;
+            margin-left: 40px;
+
+        }
+
+        .text-cont {
+            display: flex;
+            padding-left: 20px;
+
+
+            .col-md-4 {
+                display: flex;
+
+
+                h5 {
+                    background-color: #f1f9f7;
+                    color: #007d57;
+                    border-radius: 50%;
+                    padding-bottom: 20px;
+                    padding-left: 24px;
+                    padding-top: 14px;
+                    width: 64px;
+                    height: 64px;
+                    font-size: 24px;
+                    font-weight: 500;
+                    line-height: 32px;
+                }
+
+                p {
+                    color: #000000de;
+                    font-size: 15px;
+                    font-weight: 500;
+                    margin-left: 20px;
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+}
